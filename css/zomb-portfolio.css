@@ -1,0 +1,530 @@
+body {
+  background: #2f3640;
+  padding: 80px 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* hidden-text 웹 접근성 용도 */
+.hidden-text {
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.zomb-portfolio {
+  width: 100%;
+  max-width: 900px;
+  padding: 100px 50px;
+  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.zomb-portfolio h1 {
+  font-weight: bold;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+}
+
+.zomb-portfolio h2 {
+  position: relative;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: left;
+}
+
+.zomb-portfolio h2:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 5px;
+  height: 100%;
+  background: #bdc3c7;
+}
+
+/* UPDATE SECTION CSS */
+.zomb-update-history {
+  padding: 30px 0 100px 0;
+  font-size: 0.8rem;
+  color: #bdc3c7;
+}
+
+/* INTRODUCE SECTION CSS */
+.zomb-introduce {
+  padding-bottom: 4rem;
+}
+
+.zomb-introduce h2 {
+  margin-bottom: 3rem;
+}
+
+.zomb-introduce p {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.zomb-introduce ol {
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.5rem;
+}
+
+.zomb-introduce ol li {
+  width: 25%;
+  float: left;
+  padding: 0.7rem 1rem;
+  box-sizing: border-box;
+  border-right: 1px solid rgba(34, 36, 38, 0.15);
+  background: #f3f4f5;
+  position: relative;
+}
+
+.zomb-introduce ol li:after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  right: 0%;
+  border: medium none;
+  background: #f3f4f5;
+  width: 1.14285714em;
+  height: 1.14285714em;
+  border-style: solid;
+  border-color: rgba(34, 36, 38, 0.15);
+  border-width: 0px 1px 1px 0px;
+  transform: translateY(-50%) translateX(50%) rotate(-45deg);
+}
+
+.zomb-introduce ol li:last-of-type {
+  border-right: none;
+}
+
+.zomb-introduce ol li span {
+  display: block;
+  padding: 0.1rem 1rem;
+  color: rgba(40, 40, 40, 0.3);
+}
+
+.zomb-introduce ol li span:first-of-type {
+  font-weight: bold;
+}
+
+.zomb-introduce ol li span:last-of-type {
+  padding-top: 0.3rem;
+  font-size: 0.7rem;
+}
+
+.zomb-introduce ol .active {
+  background: none;
+}
+
+.zomb-introduce ol .active:after {
+  background: none;
+}
+
+.zomb-introduce ol .active span {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.zomb-introduce ol .active span:first-of-type {
+  color: #4183c4;
+}
+
+/* SKILLS SECTION CSS */
+.zomb-skills {
+}
+
+.zomb-skills h2 {
+  margin-bottom: 3rem;
+}
+
+.zomb-skills .button-style {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+}
+
+.zomb-skills .button-style li {
+  width: 50%;
+  float: left;
+  padding: 0.8rem 0;
+  box-sizing: border-box;
+  background: #f3f4f5;
+  cursor: pointer;
+  border-right: 1px solid rgba(34, 36, 38, 0.15);
+}
+
+.zomb-skills .button-style li:last-of-type {
+  border-right: none;
+}
+
+.zomb-skills .button-style li:hover {
+  background: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.zomb-skills .skill-lists {
+  padding: 3rem 0;
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+.zomb-skills .skill-lists li {
+  width: 25%;
+  height: 150px;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.zomb-skills .skill-lists li img {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.zomb-skills p {
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+/* WORKS SECTION CSS */
+.zomb-works {
+}
+
+.zomb-works h3 {
+  margin-top: 2rem;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+}
+
+.zomb-works .works-list {
+  text-align: left;
+  padding: 1.5rem 50px;
+  font-size: 1rem;
+  line-height: 2rem;
+  list-style: square;
+}
+
+.zomb-works .works-list a {
+  color: rgba(0, 0, 0, 0.95);
+}
+
+.zomb-works .works-list a:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.zomb-works .work-section .work-image {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  text-indent: 0;
+  text-align: center;
+}
+
+.zomb-works .work-section .work-image img {
+  width: 100%;
+}
+
+.zomb-works .work-section .work-image span {
+  padding: 10px 0 10px 0;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  color: #bdc3c7;
+  display: block;
+}
+
+.zomb-works .work-section .work-image .img {
+  padding-bottom: 0;
+}
+
+.zomb-works .work-section {
+  width: 100%;
+  padding: 100px 0;
+  max-width: 600px;
+  margin: auto;
+}
+
+.zomb-works .work-section h4 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.zomb-works .work-section p {
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: #2f3640;
+}
+
+.zomb-works .work-section .work-text {
+  text-indent: 0.4rem;
+}
+
+.zomb-works .work-section .work-text + .work-text {
+  padding-top: 1rem;
+}
+
+.zomb-works .work-section .work-title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 3rem 0 2rem 0;
+}
+
+.zomb-works .work-section .work-title span {
+  padding-bottom: 0.2rem;
+  border-bottom: 3px solid rgba(34, 36, 38, 1);
+}
+
+.zomb-works .work-section .work-features {
+  list-style: disc;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.zomb-works .work-section .work-features ul {
+  list-style: circle;
+  padding: 10px 30px 30px 30px;
+  color: #535c68;
+  font-size: 0.9rem;
+}
+
+.zomb-works .work-section .work-features ul ul {
+  padding: 10px 30px 30px 30px;
+  color: #535c68;
+  font-size: 0.9rem;
+}
+
+.zomb-works .work-section .work-features ul ul li {
+  padding-left: 5px;
+}
+
+.zomb-works .work-section .work-skills {
+  padding-left: 30px;
+  list-style: square;
+  text-align: left;
+  line-height: 1.7rem;
+}
+
+.zomb-works .work-section .work-production-link {
+  padding-top: 30px;
+  text-indent: 0;
+  font-weight: bold;
+}
+
+.zomb-works .work-section .work-production-link span {
+  display: inline-block;
+  width: 80px;
+  font-weight: normal;
+}
+
+.zomb-works .work-section .work-production-link a {
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.95);
+}
+
+.zomb-works .work-section .work-production-link a:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.zomb-works .work-section .work-business-lists {
+  overflow: hidden;
+}
+
+.zomb-works .work-section .work-business-lists li {
+  float: left;
+  width: calc(50% - 1rem);
+  margin: 0.5rem 0.5rem 1.5rem 0.5rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.zomb-works .work-section .work-business-lists li img {
+  width: 100%;
+}
+
+.zomb-works .work-section .work-business-lists li a {
+  color: rgba(0, 0, 0, 0.95);
+  font-size: 0.8rem;
+  position: relative;
+  display: block;
+}
+
+.zomb-works .work-section .work-business-lists li span {
+  display: block;
+}
+
+.zomb-works .work-section .work-business-lists li .img {
+  position: relative;
+  transition: 0.3s all ease;
+}
+
+.zomb-works .work-section .work-business-lists li .text {
+  padding: 0.9rem 0;
+  position: relative;
+  z-index: 1;
+  transition: 0.3s all ease;
+}
+
+.zomb-works .work-section .work-business-lists li a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+
+.zomb-works .work-section .work-business-lists li:hover a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.zomb-works .work-section .work-business-lists li:hover a:after {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.zomb-works .work-section .work-business-lists li:hover .img {
+  transform: scale(1.3);
+}
+
+.zomb-works .work-section .work-business-lists li:hover .text {
+  /* matrix (scaleX, skewX, skewY, scaleY, translateX, translateY) */
+  transform: matrix(1.8, 0, 0, 1.8, 0, -60);
+  -webkit-transform: matrix(1.5, 0, 0, 1.5, 0, -60);
+}
+
+.zomb-finished {
+}
+
+.zomb-finished h2 {
+  margin-bottom: 3rem;
+}
+
+.zomb-finished ul {
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.zomb-finished ul a {
+  color: rgba(0, 0, 0, 0.95);
+  text-decoration: none;
+}
+
+.zomb-finished ul a:hover {
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: underline;
+}
+
+.zomb-finished ul span:first-of-type {
+  width: 110px;
+  display: inline-block;
+  text-align: right;
+  color: #bdc3c7;
+}
+
+.zomb-finished ul span:last-of-type {
+  padding-left: 0.8rem;
+}
+
+.zomb-finished p {
+  padding: 5rem 0;
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 80px 10px;
+  }
+
+  .zomb-portfolio h1 {
+    font-size: 2rem;
+  }
+
+  .zomb-introduce ol li {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  }
+
+  .zomb-introduce ol li:last-of-type {
+    border-bottom: none;
+  }
+
+  .zomb-skills .skill-lists li {
+    height: 80px;
+  }
+
+  .zomb-skills .button-style li {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  }
+
+  .zomb-skills .button-style li:last-of-type {
+    border-bottom: none;
+  }
+
+  .zomb-portfolio {
+    padding: 50px 20px;
+  }
+
+  .zomb-works .work-section h4 {
+    font-size: 1.7rem;
+  }
+
+  .zomb-works .work-section .work-production-link span {
+    display: block;
+  }
+
+  .zomb-works .work-section .work-business-lists li:hover .text {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, -30);
+  }
+}
