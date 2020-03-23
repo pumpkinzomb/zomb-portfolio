@@ -19,7 +19,7 @@
         FRONT-END 개발자<br />
         박태원 포트폴리오
       </h1>
-      <p class="zomb-update-history">updated 2020.02.21</p>
+      <p class="zomb-update-history">updated 2020.03.23</p>
       <div class="zomb-introduce">
         <h2>INTRODUCING</h2>
         <ol>
@@ -43,16 +43,15 @@
         <p>
           안녕하세요. <br /><br />
           끊임없는 배움을 좋아하는 프론트엔드 개발자 박태원입니다. <br />
-          현재 저는 네오펙트라는 재활 헬스케어 회사의 B2C팀에서 프론트엔드 포지션의 웹개발을 맡고 있으며 Neofect
-          Portal이라는 사이트의 신규개발과 운영을 vuejs를 사용하여 개발하고 있습니다. <br />
+          현재 저는 네오펙트라는 재활 헬스케어 회사의 B2C팀에서 프론트엔드 포지션의 웹개발을 맡고 있으며 Neofect Portal이라는 사이트의
+          신규개발과 운영을 vuejs를 사용하여 개발하고 있습니다. <br />
           현 회사에서는 atlassian의 jira와 bitbucket을 사용하여 스프린트 단위로 개발을 진행하는 것을 경험중입니다.<br /><br />
-          회사 외적으로는 react와 apollo를 사용하여 개인 프로젝트를 진행하며 서비스를 운영배포중이며, class component와
-          functional component를 이용한 효율적인 웹 컴포넌트 설계를 공부중입니다. 최근에는 react의 hook을 이용하여 life
-          cycle이 필요없는 컴포넌트의 최적화를 위해 기존 react 코드를 수정하여 업데이트하였습니다. <br /><br />
+          회사 외적으로는 react와 apollo를 사용하여 개인 프로젝트를 진행하며 서비스를 운영배포중이며, class component와 functional
+          component를 이용한 효율적인 웹 컴포넌트 설계를 공부중입니다. 최근에는 react의 hook을 이용하여 life cycle이 필요없는 컴포넌트의
+          최적화를 위해 기존 react 코드를 수정하여 업데이트하였습니다. <br /><br />
 
-          java와 php를 다루는 웹 개발자로 시작하여 미대를 재학중에 웹 디자이너로서의 경험을 쌓고 그 이후에 퍼블리셔의
-          과정을 거쳐 프론트 개발자로 전향했기 때문에 보다 넓은 시야를 갖고 웹개발쪽으로의 다양한 경험치를 갖고 있다는
-          것이 저의 강점이라고 생각합니다.<br /><br />
+          java와 php를 다루는 웹 개발자로 시작하여 미대를 재학중에 웹 디자이너로서의 경험을 쌓고 그 이후에 퍼블리셔의 과정을 거쳐 프론트
+          개발자로 전향했기 때문에 보다 넓은 시야를 갖고 웹개발쪽으로의 다양한 경험치를 갖고 있다는 것이 저의 강점이라고 생각합니다.<br /><br />
 
           제 개인 사이드 프로젝트 위주로만 포트폴리오를 준비하였습니다. 너그러운 마음으로 봐주시면 감사하겠습니다.
           <br />
@@ -80,10 +79,8 @@
           <li><img src="images/apollo.png" alt="apollo" /></li>
         </ul>
         <p>
-          ㆍ 퍼블리셔로 근무하면서 겪었던 경험들과 공부해왔던 지식으로 dom과 cssom에 대해 깊은 이해도를 갖고
-          있습니다.<br />
-          ㆍ web frontend에서 필요한 공부를 게을리하지 않으며 toy project를 제작해서 운영관리하는 취미를 갖고
-          있습니다.<br />
+          ㆍ 퍼블리셔로 근무하면서 겪었던 경험들과 공부해왔던 지식으로 dom과 cssom에 대해 깊은 이해도를 갖고 있습니다.<br />
+          ㆍ web frontend에서 필요한 공부를 게을리하지 않으며 toy project를 제작해서 운영관리하는 취미를 갖고 있습니다.<br />
           ㆍ react와 vue, apollo를 프로젝트에서 다루어본 적 있으며 꾸준히 공부하고 있습니다.
         </p>
       </div>
@@ -91,6 +88,7 @@
         <h2>WORKS</h2>
         <h3>개인 프로젝트 작업물</h3>
         <ul class="works-list">
+          <li><a href="#zombtodo">Zomb TodoList</a></li>
           <li><a href="#texture">Text:ure</a></li>
           <li><a href="#zombmovies">Zomb Movies</a></li>
           <li><a href="#zombsound">Zomb Sound</a></li>
@@ -99,6 +97,82 @@
           <li><a href="#ceramicvillage">Ceramic Village</a></li>
         </ul>
         <hr />
+        <!-- Zomb Todo Section -->
+        <div class="work-section">
+          <h4 id="texture">[개인] Zomb Todo</h4>
+          <p class="work-image">
+            <span class="img">
+              <img src="images/zomb-todo-design.jpg" alt="Zomb Todo favicon 디자인" />
+            </span>
+            <span>Zomb Todo / DESIGN BY PUMPKIN</span>
+          </p>
+          <p class="work-title"><span>Description</span></p>
+          <p class="work-text">
+            평소에 직접 두고두고 쓸만한 Todo 웹앱을 만들어보고 싶었기 때문에 시작한 프로젝트로
+            Google Login을 이용한 oauth2 시스템과 jwt토큰을 이용한 검증시스템까지 공부해볼겸 구축해보았다.<br>
+          </p>
+          <p class="work-text">
+            SPA / React / Node(server) / css / scss / Google Login / Oauth2 Verification REST API
+          </p>
+          <p class="work-title"><span>App Features</span></p>
+          <ul class="work-features">
+            <li>
+              Google Login
+              <ul>
+                <li>Oauth2 Verification System</li>
+              </ul>
+            </li>
+            <li>
+              Schedule Management of Monthly Todo List
+              <ul>
+                <li>Done Progress bar (Monthly rate of achievement)</li>
+                <li>Write Todo</li>
+                <li>Edit Todo</li>
+                <li>Delete Todo</li>
+                <li>Get Monthly Todo List</li>
+              </ul>
+            </li>
+          </ul>
+          <p class="work-title"><span>Used Skills</span></p>
+          <ul class="work-skills">
+            <li>React.js</li>
+            <li>Google Login</li>
+            <li>Jwt Token</li>
+            <li>SPA</li>
+            <li>Node / Express</li>
+            <li>SCSS</li>
+            <li>heroku</li>
+          </ul>
+          <p class="work-title"><span>Production</span></p>
+          <p class="work-image">
+            <span class="img">
+              <img src="images/zomb-todo1.jpg" alt="Zomb Todo View" />
+            </span>
+            <span>Zomb Todo Web view</span>
+            <span class="img">
+              <img src="images/zomb-todo2.jpg" alt="Zomb Todo 사용장면" />
+            </span>
+            <span>Zomb Todo 사용장면</span>
+          </p>
+          <p class="work-production-link">
+            PRODUCTION BUILDING : HEROKU<br />
+            <span>[heroku] : </span><a target="_blank" href="https://zomb-todo.herokuapp.com">https://zomb-todo.herokuapp.com</a><br />
+            <span>[github] : </span
+            ><a target="_blank" href="https://github.com/pumpkinzomb/zomb-todo"
+              >https://github.com/pumpkinzomb/zomb-todo (Private)</a
+            >
+          </p>
+          <p class="work-title"><span>My Comments</span></p>
+          <p class="work-text">
+            예전부터 Todo App 만큼은 제대로 시간을 잡고 만들어보고 싶었다.<br>
+            CRUD를 사용할 수 있는 기본적인 프로그램이라 새로운 언어를 배울 때 간단하게 만들어보곤 했었지만
+            정작 내가 사용할만한 프로그램을 짜본적은 없다는 생각이 들었기 때문이다.<br>
+            그래서 이번에는 기획부터 설계, 컨셉과 디자인까지 기본기를 다진다는 생각으로 열심히 만들었던 것 같다.<br>
+            게다가 실무에서만 사용했었던 oauth 인증서버 구축과 google login연동을 개인프로젝트에 처음으로 적용해보았는데,
+            생각보다 괜찮아서 기존에 만들었던 개인프로젝트나 새로운 프로젝트에 계속 적용해도 좋을 것 같다는 생각이 들었다.
+          </p>
+        </div>
+        <!-- Zomb Todo Section 끝 -->
         <!-- Text:ure Section -->
         <div class="work-section">
           <h4 id="texture">[개인] Text:ure</h4>
@@ -110,10 +184,8 @@
           </p>
           <p class="work-title"><span>Description</span></p>
           <p class="work-text">
-            OCR 라이브러리를 발견하였을때 hybrid 웹앱형태로 ocr 서비스를 만들어배포하면 좋겠다는 생각에서 진행한
-            프로젝트였다.<br />
-            server는 node를 사용하였고 db기능은 추가할 필요가 없다고 생각하여 front 컴포넌트 디자인과 기능에만
-            집중하였다. <br />
+            OCR 라이브러리를 발견하였을때 hybrid 웹앱형태로 ocr 서비스를 만들어배포하면 좋겠다는 생각에서 진행한 프로젝트였다.<br />
+            server는 node를 사용하였고 db기능은 추가할 필요가 없다고 생각하여 front 컴포넌트 디자인과 기능에만 집중하였다. <br />
           </p>
           <p class="work-text">
             SPA / React / Node / css / scss
@@ -151,8 +223,7 @@
           </p>
           <p class="work-production-link">
             PRODUCTION BUILDING : HEROKU<br />
-            <span>[heroku] : </span
-            ><a target="_blank" href="https://text-ure.herokuapp.com/">https://text-ure.herokuapp.com</a><br />
+            <span>[heroku] : </span><a target="_blank" href="https://text-ure.herokuapp.com/">https://text-ure.herokuapp.com</a><br />
             <span>[github] : </span
             ><a target="_blank" href="https://github.com/pumpkinzomb/convert-photo-to-text"
               >https://github.com/pumpkinzomb/convert-photo-to-text</a
@@ -160,12 +231,12 @@
           </p>
           <p class="work-title"><span>My Comments</span></p>
           <p class="work-text">
-            사실 ocr 프로그램은 휴대폰 앱 리스트에 많았기 때문에 서비스 개발에 앞서 굳이 이 서비스가 필요할까 라는
-            자문의 시간이 있었다. <br />
-            그런데 다른 앱들을 받아서 갖고 놀다보니 생각보다 쉽게 이용할 수 있는 서비스(기기의 상관없이 이용할 수 있는,
-            회원가입이나 프로그램 설치없이 이용 가능한)가 아니었다. <br />
-            즉, 가벼운 마음으로 사용할 수 있는 서비스가 있어도 괜찮겠다는 생각이 들었고 글귀를 사진으로 찍어올리는
-            인스타 문구가 범람하는 요새에 이용하기 괜찮은 서비스인 것 같다.<br />
+            사실 ocr 프로그램은 휴대폰 앱 리스트에 많았기 때문에 서비스 개발에 앞서 굳이 이 서비스가 필요할까 라는 자문의 시간이 있었다.
+            <br />
+            그런데 다른 앱들을 받아서 갖고 놀다보니 생각보다 쉽게 이용할 수 있는 서비스(기기의 상관없이 이용할 수 있는, 회원가입이나
+            프로그램 설치없이 이용 가능한)가 아니었다. <br />
+            즉, 가벼운 마음으로 사용할 수 있는 서비스가 있어도 괜찮겠다는 생각이 들었고 글귀를 사진으로 찍어올리는 인스타 문구가 범람하는
+            요새에 이용하기 괜찮은 서비스인 것 같다.<br />
           </p>
         </div>
         <!-- Text:ure Section Section 끝 -->
@@ -180,14 +251,13 @@
           </p>
           <p class="work-title"><span>Description</span></p>
           <p class="work-text">
-            개봉 예정의 영화나 최신 영화의 정보, 높은 평점을 받은 영화의 자세한 정보를 얻고 비슷한 내용의 추천영화의
-            정보까지 얻을 수 있는 기능을 가진 Movis App이다.
+            개봉 예정의 영화나 최신 영화의 정보, 높은 평점을 받은 영화의 자세한 정보를 얻고 비슷한 내용의 추천영화의 정보까지 얻을 수 있는
+            기능을 가진 Movis App이다.
           </p>
           <p class="work-text">
             2018년 후반부터 많이 들어봤던 graphQL을 연습 해볼겸 시작한 개인 프로젝트였다.<br />
-            영화를 즐겨보며 주로 블로그나 포털사이트에서 최근 개봉작이나 평점높은 영화의 정보를 얻곤 했었는데, 얼마 전에
-            TMDB라는 곳에서 배포하는 제작한 영화정보 열람 API를 발견하게 되면서 바로 Zomb Movies APP을 제작하기
-            시작하였다.<br />
+            영화를 즐겨보며 주로 블로그나 포털사이트에서 최근 개봉작이나 평점높은 영화의 정보를 얻곤 했었는데, 얼마 전에 TMDB라는 곳에서
+            배포하는 제작한 영화정보 열람 API를 발견하게 되면서 바로 Zomb Movies APP을 제작하기 시작하였다.<br />
           </p>
           <p class="work-text">
             front에서는 react와 react apollo를 사용하였고, backend에서는 graphql과 express를 사용하여 서버작업하였다.
@@ -251,20 +321,17 @@
           </p>
           <p class="work-production-link">
             PRODUCTION BUILDING : HEROKU<br />
-            <span>[heroku] : </span
-            ><a target="_blank" href="https://zomb-movies.herokuapp.com">https://zomb-movies.herokuapp.com</a><br />
+            <span>[heroku] : </span><a target="_blank" href="https://zomb-movies.herokuapp.com">https://zomb-movies.herokuapp.com</a><br />
             <span>[github] : </span
-            ><a target="_blank" href="https://github.com/pumpkinzomb/zomb-movies"
-              >https://github.com/pumpkinzomb/zomb-movies</a
-            >
+            ><a target="_blank" href="https://github.com/pumpkinzomb/zomb-movies">https://github.com/pumpkinzomb/zomb-movies</a>
           </p>
           <p class="work-title"><span>My Comments</span></p>
           <p class="work-text">
-            GraphQL에 대해서 여러가지 강의자료가 돌아다니는 것을 보다가 제대로 공부해보기 시작했던 것은 이번이
-            처음이었는데, 막상 사용해보니 생각보다 엄청 사용하기 간단했고 무엇보다 코드가 놀랄만큼 단순해지고
-            깔끔해진다는 점이 놀라웠다. 확실히 서버를 다루는 영역에서 왜 graphql이 선호되는지 알 수 있었다.<br />
-            이번 프로젝트를 진행하면서 graphql-yoga와 express-graphql을 모두 다뤄볼 수 있는 기회가 있었고, 무엇보다
-            그동안의 express 서버 세팅에서 routing 설정의 부족함이 있다는 것을 깨달을 수 있었던 좋은 시간이었다. (<del
+            GraphQL에 대해서 여러가지 강의자료가 돌아다니는 것을 보다가 제대로 공부해보기 시작했던 것은 이번이 처음이었는데, 막상 사용해보니
+            생각보다 엄청 사용하기 간단했고 무엇보다 코드가 놀랄만큼 단순해지고 깔끔해진다는 점이 놀라웠다. 확실히 서버를 다루는 영역에서 왜
+            graphql이 선호되는지 알 수 있었다.<br />
+            이번 프로젝트를 진행하면서 graphql-yoga와 express-graphql을 모두 다뤄볼 수 있는 기회가 있었고, 무엇보다 그동안의 express 서버
+            세팅에서 routing 설정의 부족함이 있다는 것을 깨달을 수 있었던 좋은 시간이었다. (<del
               >React Routing과 Express Routing과의 hyperlink 문제들</del
             >
             solved)
@@ -276,12 +343,12 @@
           <h4 id="zombsound">[개인] ZOMB SOUND APP</h4>
           <p class="work-title"><span>Description</span></p>
           <p class="work-text">
-            DB에서 음악 데이터베이스를 불러와서 검색하고 앨범의 특정 앨범들을 트랙리스트에 담고 뷰페이지에 상관없이
-            재생할 수 있는 내용의 간단한 Music App이다.
+            DB에서 음악 데이터베이스를 불러와서 검색하고 앨범의 특정 앨범들을 트랙리스트에 담고 뷰페이지에 상관없이 재생할 수 있는 내용의
+            간단한 Music App이다.
           </p>
           <p class="work-text">
-            음악가와 앨범 정보, 트랙리스트를 RDBS를 사용하여 데이터를 다루었는데, 상용화된 무료 mysql 호스팅을
-            사용하면서 생긴 문제들 덕분에 mysql pool 기능을 익힐 수 있었다.
+            음악가와 앨범 정보, 트랙리스트를 RDBS를 사용하여 데이터를 다루었는데, 상용화된 무료 mysql 호스팅을 사용하면서 생긴 문제들 덕분에
+            mysql pool 기능을 익힐 수 있었다.
           </p>
           <p class="work-text">
             [FullStack] SPA / VueJs / Mysql / css / scss
@@ -326,9 +393,7 @@
           <p class="work-production-link">
             PRODUCTION BUILDING : HEROKU<br />
             <span>[github] : </span
-            ><a target="_blank" href="https://github.com/pumpkinzomb/zomb-sound"
-              >https://github.com/pumpkinzomb/zomb-sound</a
-            >
+            ><a target="_blank" href="https://github.com/pumpkinzomb/zomb-sound">https://github.com/pumpkinzomb/zomb-sound</a>
           </p>
           <p class="work-title"><span>My Comments</span></p>
           <p class="work-text">
@@ -347,17 +412,15 @@
           </p>
           <p class="work-title"><span>Description</span></p>
           <p class="work-text">
-            날짜와 시간을 중심으로 레슨생들의 레슨과정을 기록하고, 레슨 스케줄 형식으로 Daily 레슨로그를 기록하는 웹
-            어플리케이션.
+            날짜와 시간을 중심으로 레슨생들의 레슨과정을 기록하고, 레슨 스케줄 형식으로 Daily 레슨로그를 기록하는 웹 어플리케이션.
           </p>
           <p class="work-text">
-            개인 레슨을 하는 지인을 보면서 시작한 개인 프로젝트로 스케줄러의 형태로 레슨일정을 관리하고 따로 노트에 레슨
-            과정을 기록하는 모습을 보면서 '그 두개를 한꺼번에 할 수 있는 형태의 어플리케이션이 있으면 편하겠다'는
-            생각으로 만들게 되었다.
+            개인 레슨을 하는 지인을 보면서 시작한 개인 프로젝트로 스케줄러의 형태로 레슨일정을 관리하고 따로 노트에 레슨 과정을 기록하는
+            모습을 보면서 '그 두개를 한꺼번에 할 수 있는 형태의 어플리케이션이 있으면 편하겠다'는 생각으로 만들게 되었다.
           </p>
           <p class="work-text">
-            react를 사용하여 SPA 형태의 front화면을 작업 하였고, node를 사용하여 서버를 구축한 뒤 nosql DB를 사용하여
-            restFul API를 구현하였다.
+            react를 사용하여 SPA 형태의 front화면을 작업 하였고, node를 사용하여 서버를 구축한 뒤 nosql DB를 사용하여 restFul API를
+            구현하였다.
           </p>
           <p class="work-text">
             [FullStack] SPA / React,Redux / MongoDB / css / scss
@@ -425,25 +488,21 @@
           </p>
           <p class="work-production-link">
             PRODUCTION BUILDING : HEROKU<br />
-            <span>[heroku] : </span
-            ><a target="_blank" href="https://lesson-diary.herokuapp.com">https://lesson-diary.herokuapp.com/</a><br />
+            <span>[heroku] : </span><a target="_blank" href="https://lesson-diary.herokuapp.com">https://lesson-diary.herokuapp.com/</a
+            ><br />
             <span>[github] : </span
-            ><a target="_blank" href="https://github.com/pumpkinzomb/lesson-diary"
-              >https://github.com/pumpkinzomb/lesson-diary</a
-            >
+            ><a target="_blank" href="https://github.com/pumpkinzomb/lesson-diary">https://github.com/pumpkinzomb/lesson-diary (Private)</a>
           </p>
           <p class="work-title"><span>My Comments</span></p>
           <p class="work-text">
             React를 개인프로젝트에서 좀 더 심화해서 다뤄보기 위해서 시작한 토이 프로젝트.
           </p>
           <p class="work-text">
-            node express를 사용하여 server를 구축하면서 restful한 api를 구현하기 위해서 http 메소드와 상태응답코드를
-            신경써서 만들었다.
+            node express를 사용하여 server를 구축하면서 restful한 api를 구현하기 위해서 http 메소드와 상태응답코드를 신경써서 만들었다.
           </p>
           <p class="work-text">
-            redux를 사용하기 위해 hoc형태의 smart 컴포넌트와 dumb 컴포넌트를 구분하여 전체 컴포넌트 구조를 설계하였고,
-            component lifecycle이 필요한 컴포넌트가 아닌 컴포넌트들은 react hook을 사용하여 함수형 컴포넌트를 사용하여
-            render 최적화까지 신경써보았다.
+            redux를 사용하기 위해 hoc형태의 smart 컴포넌트와 dumb 컴포넌트를 구분하여 전체 컴포넌트 구조를 설계하였고, component lifecycle이
+            필요한 컴포넌트가 아닌 컴포넌트들은 react hook을 사용하여 함수형 컴포넌트를 사용하여 render 최적화까지 신경써보았다.
           </p>
         </div>
         <!-- Lesson Diary Section 끝 -->
@@ -460,10 +519,9 @@
           <p class="work-title"><span>Description</span></p>
           <p class="work-text">
             주로 사용하는 크롬 브라우저에서 필수기능인 우클릭해제를 자동으로 해주는 확장 프로그램이다. <br />
-            웹 서핑중에 리서치에 필요한 것들이 기능적으로 context메뉴가 막혀있거나 드래깅 기능이 해제되어 있을 때 웹
-            문서의 우클릭기능을 활성화시켜주기 위한 크롬익스텐션이다. <br />
-            현재 실사용자 18500명 이상이 이용중인 서비스(2020.2.21 기준)이며 지속적인 bug를 수정하여 꾸준히 업데이트하고
-            있다.
+            웹 서핑중에 리서치에 필요한 것들이 기능적으로 context메뉴가 막혀있거나 드래깅 기능이 해제되어 있을 때 웹 문서의 우클릭기능을
+            활성화시켜주기 위한 크롬익스텐션이다. <br />
+            현재 실사용자 18500명 이상이 이용중인 서비스(2020.2.21 기준)이며 지속적인 bug를 수정하여 꾸준히 업데이트하고 있다.
           </p>
           <p class="work-text">
             Chrome API / vanilla javascript / html5 / css3
@@ -507,18 +565,16 @@
           <p class="work-production-link">
             PRODUCTION BUILDING : CHROME EXTENTSION<br />
             <span style="width:120px;">[CHROME APP] : </span>
-            <a
-              target="_blank"
-              href="https://chrome.google.com/webstore/detail/pumpkins-right-click-enab/linjodakmnamlieknafoiphnckgbaeab"
+            <a target="_blank" href="https://chrome.google.com/webstore/detail/pumpkins-right-click-enab/linjodakmnamlieknafoiphnckgbaeab"
               >Pumpkin's Right Click Enable</a
             ><br />
           </p>
           <p class="work-title"><span>My Comments</span></p>
           <p class="work-text">
-            평소 코드들을 리서치하거나 사진을 다운로드 받는 일이 있을 때, 블로그나 홈페이지 내에서 자체적으로 제공하는
-            우클릭 금지 기능 때문에 불편함을 겪는 일들이 있었다.<br />
-            물론 저작권 문제로 인해 필수적으로 제공되는 기능이긴 했지만 간단한 코드등이나 단어를 드래그하는 부분에서도
-            불필요하게 작동되는 부분들이 있었기 때문에 그런 불편함을 해소하기 위해 이 프로그램을 제작하게 되었다.<br />
+            평소 코드들을 리서치하거나 사진을 다운로드 받는 일이 있을 때, 블로그나 홈페이지 내에서 자체적으로 제공하는 우클릭 금지 기능
+            때문에 불편함을 겪는 일들이 있었다.<br />
+            물론 저작권 문제로 인해 필수적으로 제공되는 기능이긴 했지만 간단한 코드등이나 단어를 드래그하는 부분에서도 불필요하게 작동되는
+            부분들이 있었기 때문에 그런 불편함을 해소하기 위해 이 프로그램을 제작하게 되었다.<br />
             chrome에서 제공하는 API를 사용하였지만 기반언어가 javascript였기 때문에 재미있게 작업했다.
           </p>
         </div>
@@ -537,8 +593,8 @@
           <p class="work-text">
             Ceramic Artist 정보 아카이빙 사이트<br />
             웹 페이지는 java와 html5, jquery를 사용하였고 server로 톰캣, DB로는 mysql을 사용하였다.<br />
-            주 목적은 아카이빙 사이트인 만큼 유저들과 양방향 소통을 할 수 있는 커뮤니티였으므로, 블로그와 컨택트,
-            교류게시판까지 만들게 되면서 상당한 시간이 소요됬었다.
+            주 목적은 아카이빙 사이트인 만큼 유저들과 양방향 소통을 할 수 있는 커뮤니티였으므로, 블로그와 컨택트, 교류게시판까지 만들게
+            되면서 상당한 시간이 소요됬었다.
           </p>
           <p class="work-text">
             반응형 작업을 위해 mobile, tablet pc, web으로 3부분으로 나눠서 css mediaquery작업하였다.
@@ -627,13 +683,13 @@
           </p>
           <p class="work-title"><span>My Comments</span></p>
           <p class="work-text">
-            java 개발자로 jsp로 웹개발을 하던 시절 개인적으로 진행했었던 토이프로젝트로써, 기획부터 디자인 실제 개발까지
-            혼자 진행했었던 프로젝트였다.<br />
+            java 개발자로 jsp로 웹개발을 하던 시절 개인적으로 진행했었던 토이프로젝트로써, 기획부터 디자인 실제 개발까지 혼자 진행했었던
+            프로젝트였다.<br />
             javascript를 숙련시키기 위해 외부 library로 동작시켰던 로직들을 전부 다 하드코딩하여 만들었다.
           </p>
           <p class="work-text">
-            cross browsing 이슈로 인해서 고생이 심했었던 프로젝트였었는데, ie7 까지 지원하려고 했던 욕심 때문이었고 그
-            중에서도 지원되지 않는 css 기능을 범용화시키는 부분과 css selector를 사용하는 부분이 크게 힘들었었다.
+            cross browsing 이슈로 인해서 고생이 심했었던 프로젝트였었는데, ie7 까지 지원하려고 했던 욕심 때문이었고 그 중에서도 지원되지
+            않는 css 기능을 범용화시키는 부분과 css selector를 사용하는 부분이 크게 힘들었었다.
           </p>
         </div>
         <!-- Ceramic Village Section 끝 -->
